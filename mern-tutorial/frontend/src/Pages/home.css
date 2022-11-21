@@ -1,0 +1,22 @@
+form{
+    padding: 1rem;
+    border:1px solid rgb(46, 45, 45);
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    width:50%;
+   
+}
+
+.form-control{
+    background-color: whitesmoke;
+    width:90%;
+    padding:10px;
+    margin:10px;
+    display: block;
+    border:none;
+}
+
+label{
+    font-weight: bold;
+}

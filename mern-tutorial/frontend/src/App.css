@@ -1,0 +1,37 @@
+.primaryBtn{
+    padding:10px;
+    background-color: rgb(0, 132, 255);
+    color:white;
+    border:none;
+    margin:10px;
+    cursor: pointer;
+}
+
+.primaryBtn:hover{
+    background-color: rgb(3, 101, 194);
+}
+
+.cardGroup{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width:300px;
+    margin:15px;
+    padding:10px;
+    border: 1px solid lightgray;
+}
+
+.card p{
+    color:rgb(73, 72, 72);
+}
+
+.card small{
+    background: rgb(101, 131, 228);
+    padding:5px 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+

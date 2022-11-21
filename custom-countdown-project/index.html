@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- countdown form -->
+    <div class="form-area" >
+        <form id="counter-form">
+            <div>
+                <label>Enter Countdown Title:</label>
+                <input type="text" name="title" id="counter-title-input" placeholder="What's you're counting to?" >
+            </div>
+
+            <div>
+                <label>Pick a Date</label>
+                <input type="date" name="date-picker" id="counter-date" >
+            </div>
+            <button type="submit" id="counterSubmit">Submit</button>
+        </form>
+    </div>
+
+    <!-- main counter -->
+    <div class="counter" id="counter" hidden>
+        <h1 id="counter-title">Counter Title</h1>
+        <ul>
+            <li><span>3</span>Days</li>
+            <li><span>6</span>Hours</li>
+            <li><span>12</span>Minutes</li>
+            <li><span>23</span>Seconds</li>
+        </ul>
+        <button type="reset" id="counter-reset">Reset</button>
+    </div>
+
+    <!-- Complete screen -->
+
+    <div class="complete" id="complete" hidden>
+        <h1 class="complete-title">Counter Completed!</h1>
+        <h1 id="complete-info">Countdown finished on 27-07-2022</h1>
+        <button id="complete-button">New Countdown</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+
+
+    
+</body>
+</html>
