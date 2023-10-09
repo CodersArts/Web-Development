@@ -40,7 +40,7 @@ function App () {
 
   const handleToDoDelete = index => {
     let reducedTodos = [...allTodos];
-    reducedTodos.splice (index);
+    reducedTodos.splice (index,1);
     // console.log (index);
 
     // console.log (reducedTodos);
