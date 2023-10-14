@@ -1,0 +1,24 @@
+.landing__wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 2rem;
+}
+
+.landing__text{
+    width: 40%;
+}
+
+.landing__text h1{
+    font-size: 4rem;
+}
+
+.landing__img{
+    width: 50%;
+    margin-left: 2rem;
+   
+}
+
+.landing__img img{
+    width: 100%;
+}

@@ -1,0 +1,75 @@
+.toDoWrapper{
+    margin-top: 100px;
+    padding: 2rem;
+}
+
+.toDoHeader{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+
+
+.toDoCard{
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0.233px 8px lightgray;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 25%;
+    margin: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.toDoCard p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.toDoListCardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toDoCardFooter,.toDoCardHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toDoCardFooter{
+border-top: 1px solid rgb(236, 235, 235);
+padding-top: 10px;
+}
+
+.toDoFooterAction{
+    display: flex;
+}
+
+
+
+.actionIcon{
+    font-size: 1.2ren;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.actionIcon:hover{
+    filter: brightness(50%);
+}
+
+.noTaskWrapper{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

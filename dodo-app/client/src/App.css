@@ -1,0 +1,131 @@
+:root{
+  --primary:rgb(0, 132, 255);
+  --darkPrimary:rgb(4, 110, 209);
+  --secondary:rgb(211, 233, 253);
+  --darkSecondary:rgb(185, 214, 241);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+  z-index: 100;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px 0.233px 8px lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+}
+
+
+.logo__wrapper img{
+  width: 30px;
+}
+
+.logo__wrapper{
+  display: flex;
+  align-items: center;
+
+}
+
+.logo__wrapper h4{
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation-menu{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-right: 2rem;
+
+}
+
+
+.navigation-menu li {
+  position: relative;
+}
+.navigation-menu li a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 15px;
+    color: rgb(82, 81, 81);
+    
+  }
+
+  .navigation-menu li a:hover:not(.activeNav){
+    background-color: whitesmoke;
+    color: var(--primary);
+  }
+
+  .userInfoNav{
+    border: 1px solid lightgray;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .userInfoNav img{
+    width: 30px;
+    margin-right: 5px;
+  }
+
+  .activeNav{
+    background-color: whitesmoke;
+  }
+
+  .primaryText{
+    color: var(--primary);
+  }
+
+  .primaryBtn{
+    background-color: var(--primary);
+    color:white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin:1rem;
+  }
+
+
+
+  .primaryBtn:hover{
+    background-color: var(--darkPrimary);
+
+  }
+
+  .secondaryBtn{
+    background-color: var(--secondary);
+    color:var(--darkPrimary);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin:1rem;
+  }
+
+  .secondaryBtn:hover{
+    background-color: var(--darkSecondary);
+  }
